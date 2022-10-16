@@ -1,0 +1,97 @@
+.flex-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-color: silver;
+}
+
+.left-box {
+  display: flex;
+  height: 550px;
+  width: 35%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px 0 0 20px;
+  background-color: azure;
+}  
+
+.signIn{
+  padding-top: 100px;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  justify-content:space-between;
+}
+.child {
+  display: inline-block;
+  border-radius: 180px;
+  border-color: aqua;
+  border-style: solid;
+  padding: 5px 10px;
+  vertical-align: middle;
+}
+
+.child img {
+  height: 30px;
+  width: 25px;
+}
+
+.email{
+  margin-left: -50px;
+  height: 25px;
+  width: 150%;
+  background-color: lightgray;
+  border-color: lightgrey;
+}
+.password{
+  margin-left: -50px;
+  height: 25px;
+  width: 150%;
+  background-color: lightgray;
+  border-color: lightgrey;
+}
+
+.signIn button{
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 50px;
+  font-weight: bold;
+  color: whitesmoke;
+  height: 35px;
+  width: 100%;
+}
+
+.right-box {
+  color: whitesmoke;
+  display: flex;
+  height: 550px;
+  width: 35%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0 20px 20px 0;
+  background-color: aqua;
+} 
+
+.signUp{
+  padding-top: 150px;
+}
+
+.signUp p{
+  color: whitesmoke;
+}
+
+.signUp button{
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 50%;
+  background-color: aqua;
+  border-radius: 30px;
+  border-color: whitesmoke;
+}
+
+
